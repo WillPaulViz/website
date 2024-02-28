@@ -1,0 +1,141 @@
+:root {
+  --background: #1d1d1e;
+  --secondary: #262626;
+  --features: #2b64e8;
+}
+
+.commands {
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+}
+
+.cont{
+  position: relative;
+}
+
+.button:hover{
+  background-color: #008af8; /*CHANGE*/
+}
+
+.img-res-show {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.croptext{
+  width: 40%;
+}
+
+.invite {
+  background-color: #2b64e8;
+}
+
+.serv {
+  background-color: #2b64e8;
+}
+
+.top {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.bot {
+  display: block;
+  transform: rotate(180deg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.toppaddin {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.parent {
+  position: relative;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.static {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.anyaGif {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pog {
+  margin-top: 15px;
+  height: 40px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #008af8;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  -webkit-border-radius:60px;
+  -moz-border-radius:60px;
+  border-radius:60px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-8px;
+  margin-top:-12px;
+  height:0;
+  width:0;
+  border:8px solid transparent;
+  border-bottom-color:#ffffff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #00acff;
+}
+#button:active {
+  background-color: #2b64e8;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,0 +1,135 @@
+:root {
+  --main-color: #ea34a7;
+  --background: #1d1d1e;
+  --secondary: #262626;
+  --link: #f20736;
+  --text-color: #fff;
+  --secondary-text-color: #dcdcdc;
+  --features: #ef7084
+}
+
+.commands {
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+.croptext{
+  width: 40%;
+}
+
+.img-res-show {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.top {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+.button:hover {
+  background-color: #ffb6c1;
+  color: #363636
+}
+
+.bot {
+  display: block;
+  transform: rotate(180deg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.toppaddin {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.parent {
+  position: relative;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.staticNino {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.gifNino {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pog {
+  margin-top: 15px;
+  height: 40px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #f48294;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  -webkit-border-radius:60px;
+  -moz-border-radius:60px;
+  border-radius:60px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-8px;
+  margin-top:-12px;
+  height:0;
+  width:0;
+  border:8px solid transparent;
+  border-bottom-color:#ffffff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #f894a3;
+}
+#button:active {
+  background-color: #ef7084;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
