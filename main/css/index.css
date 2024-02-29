@@ -1,7 +1,7 @@
 :root {
   --background: #1d1d1e;
   --secondary: #262626;
-  --features: #eeeeee;
+  --features: #ab1529;
 }
 
 .commands {
@@ -16,7 +16,7 @@
 }
 
 .button:hover{
-  background-color: #dddddd; /*CHANGE*/
+  background-color: #c41b32; /*CHANGE*/
 }
 
 .img-res-show {
@@ -32,11 +32,11 @@
 }
 
 .invite {
-  background-color: #eeeeee;
+  background-color: #ab1529;
 }
 
 .serv {
-  background-color: #eeeeee;
+  background-color: #ab1529;
 }
 
 .top {
@@ -101,7 +101,7 @@
 
 #button {
   display: inline-block;
-  background-color: #dddddd;
+  background-color: #c41b32;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -130,10 +130,10 @@
 }
 #button:hover {
   cursor: pointer;
-  background-color: #cccccc;
+  background-color: #db2a42;
 }
 #button:active {
-  background-color: #eeeeee;
+  background-color: #ab1529;
 }
 #button.show {
   opacity: 1;

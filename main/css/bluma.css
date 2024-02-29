@@ -9910,7 +9910,7 @@ a.has-text-black:hover {
 }
 
 .has-background-blue {
-    background-color: #eeeeee !important
+    background-color: #ab1529 !important
 }
 
 .has-text-light {
@@ -11986,7 +11986,7 @@ print {
 .hero.is-black .navbar-link:hover,
 .hero.is-black a.navbar-item.is-active,
 .hero.is-black a.navbar-item:hover {
-    background-color: #2b64e8;
+    background-color: #ab1529;
     color: #000;
     border-radius: 15px;
 }
