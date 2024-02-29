@@ -1,7 +1,7 @@
 :root {
   --background: #1d1d1e;
   --secondary: #262626;
-  --features: #2b64e8;
+  --features: #eeeeee;
 }
 
 .commands {
@@ -16,7 +16,7 @@
 }
 
 .button:hover{
-  background-color: #008af8; /*CHANGE*/
+  background-color: #dddddd; /*CHANGE*/
 }
 
 .img-res-show {
@@ -32,11 +32,11 @@
 }
 
 .invite {
-  background-color: #2b64e8;
+  background-color: #eeeeee;
 }
 
 .serv {
-  background-color: #2b64e8;
+  background-color: #eeeeee;
 }
 
 .top {
@@ -88,7 +88,7 @@
   left: 0;
 }
 
-.anyaGif {
+.rukaGif {
   position: absolute;
   top: 0;
   left: 0;
@@ -101,7 +101,7 @@
 
 #button {
   display: inline-block;
-  background-color: #008af8;
+  background-color: #dddddd;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -130,12 +130,24 @@
 }
 #button:hover {
   cursor: pointer;
-  background-color: #00acff;
+  background-color: #cccccc;
 }
 #button:active {
-  background-color: #2b64e8;
+  background-color: #eeeeee;
 }
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+.imgButton {
+  width: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: .3s;
+  border-radius: 10px;
+}
+
+.imgButton:hover {
+  transform: scale(1.15);
 }
